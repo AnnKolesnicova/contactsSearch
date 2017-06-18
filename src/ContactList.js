@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Contact from './Contact';
-import './App.css';
+import './styles/App.css';
 
 const CONTACTS = [
     {
@@ -48,7 +48,6 @@ export default class ContactList extends React.Component {
         if (displayedContacts) {
             this.setState({ displayedContacts: displayedContacts });
         }
-
     }
 
 
